@@ -1,0 +1,36 @@
+RevCode 6 
+Sonia Ximena Juárez Mercado 
+Melanie Vite evaluó 3/5
+
+package com.code6;
+
+public class Codigo6 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub	  
+		    int n[];
+		    n = new int [20];
+
+		    for (int i = 0; i < 20; i++) { //Faltaba un + en el ciclo 
+		      n[i] = (int)(Math.random() * 381) + 20;
+		      System.print(n[i] + " ");
+		    }
+		    
+		    System.out.println("\n¿Qué números quiere resaltar? "); //Agregar n a Printl
+		    System.out.print("(1 – los múltiplos de 5, 2 – los múltiplos de 7): ");
+		    int opcion = Integer.parseInt(System.console().readLine()); //Agregar Paréntesis
+
+		    int multiplo = opcion 
+		    		if (opcion== 1) ? 5 : 7;
+
+		    foreach (char e ; n) {
+		      if (e % multiplo == 0) {
+		        System.out.print("[" + e + "] ");
+		       else {
+		        System.in.print(e + " ");
+		      }
+		    }
+		  
+	}
+
+}
